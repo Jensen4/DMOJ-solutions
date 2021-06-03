@@ -1,1 +1,1 @@
-Solutions to https://dmoj.ca/problems/
+Solutions to <a href="https://dmoj.ca/problems/" target="_blank">Go</a>
