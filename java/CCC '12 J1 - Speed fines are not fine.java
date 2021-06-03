@@ -10,11 +10,11 @@ public class main {
         if (b <= a) {
             System.out.println("Congratulations, you are within the speed limit!");
         } else if (b > a & b <= (a + 20)) {
-            System.out.println("You are speeding and your fine is $100");
-        } else if (b > (a + 20) & b <= (a + 30)) {
-            System.out.println("You are speeding and your fine is $270");
+            System.out.println("You are speeding and your fine is $100.");
+        } else if (b >= (a + 21) & b <= (a + 30)) {
+            System.out.println("You are speeding and your fine is $270.");
         } else {
-            System.out.println("You are speeding and your fine is $500");
+            System.out.println("You are speeding and your fine is $500.");
         }
     }
 }
