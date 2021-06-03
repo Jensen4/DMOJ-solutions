@@ -1,3 +1,4 @@
+
 import java.util.*;
 
 public class main {
@@ -5,20 +6,16 @@ public class main {
     public static void main(String[] args) {
         Scanner in = new Scanner(System.in);
 
-        int a, b;
-        a = in.nextInt();
-        b = in.nextInt();
-        
-        if (a >= 3 & b <= 4) 
-        {
+        int a = in.nextInt();
+        int b = in.nextInt();
+
+        if (a >= 3 & b <= 4) {
             System.out.println("TroyMartian");
         }
-        if (a <= 6 & b >= 2) 
-        {
+        if (a <= 6 & b >= 2) {
             System.out.println("VladSaturnian");
         }
-        if (a >= 2 & b >= 3) 
-        {
+        if (a <= 2 & b <= 3) {
             System.out.println("GraemeMercurian");
         }
     }
