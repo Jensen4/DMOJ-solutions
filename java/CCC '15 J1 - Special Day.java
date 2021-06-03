@@ -7,11 +7,11 @@ public class main {
         int a = in.nextInt();
         int b = in.nextInt();
 
-        if (a <= 2 & b < 18) {
+        if (a <= 2 & b < 18 || a < 2) {
             System.out.println("Before");
-        } else if (a >= 2 & b > 18) {
+        } else if (a >= 2 & b > 18 || a > 2) {
             System.out.println("After");
-        } else {
+        } else if (a == 2 & b == 18) {
             System.out.println("Special");
         }
     }
