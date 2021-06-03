@@ -11,7 +11,7 @@ public class main {
         if (c < 18.5) {
             System.out.println("Underweight");
         } else if (c >= 18.5 & c <= 25) {
-            System.out.println("Normal Weight");
+            System.out.println("Normal weight");
         } else {
             System.out.println("Overweight");
         }
